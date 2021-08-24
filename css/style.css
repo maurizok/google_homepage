@@ -63,7 +63,7 @@ main .logo{
     width: 580px;
     height: 45px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--borderColor);
     border-radius: 30px;
 }
 #search{
@@ -78,8 +78,8 @@ main .logo{
     gap: 12px;
 }
 .search-button{
-    background-color: var(--button-search-background);
-    color: var(--button-search-font);
+    background-color: var(--btnSearchBackground);
+    color: var(--btnSearchFont);
     font-size: 14px;
     padding: 10px 20px;
     border-width: 1px;
@@ -99,8 +99,8 @@ footer{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-color: var(--footer-background);
-    color: var(--footer-font);
+    background-color: var(--footerBackground);
+    color: var(--footerFont);
     font-size: 14px;
     border: 1px solid #ddd;
     padding: 2px;
