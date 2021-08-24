@@ -1,0 +1,120 @@
+:root{
+    --borderColor: #ddd;
+    --btnSearchFont: #3c4043;
+    --btnSearchBackground:  #f8f9fa;
+    --footerBackground:  #f2f2f2;
+    --footerFont:  #70757a;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin-bottom: 110px;
+}
+header .nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+    font-size: 1em;
+    gap: 10px;
+    margin-right: 20px;
+}
+.g-account{
+    background-color: brown;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    text-align: center;
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: var(--footerFont);
+}
+a:hover{
+    text-decoration: underline;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    min-height: 350px;
+    margin-top: 55px;
+    margin: 0 auto;
+}
+main .logo{
+    width: 272px;
+    height: 92px;
+    display: block;
+    margin: 10px auto;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 580px;
+    height: 45px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+}
+#search{
+    width: 100%;
+    height: 100%;
+}
+.button-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 12px;
+}
+.search-button{
+    background-color: var(--button-search-background);
+    color: var(--button-search-font);
+    font-size: 14px;
+    padding: 10px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-image: initial;
+    border-radius: 5px;
+}
+#search{
+    border: 0;
+}
+footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--footer-background);
+    color: var(--footer-font);
+    font-size: 14px;
+    border: 1px solid #ddd;
+    padding: 2px;
+}
+.left-col, .right-col{
+    display: flex;
+}
+footer .left-col{
+    margin-left: 30px;
+}
+footer .right-col{
+    margin-right: 30px;
+}
+footer a{
+    display: block;
+    padding: 10px 0px 10px 30px;
+}
